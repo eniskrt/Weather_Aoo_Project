@@ -1,0 +1,254 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Inter', sans-serif;
+    color: #F3F3F3;
+    box-sizing: border-box;
+}
+h4, h5{
+    font-weight: 100;
+    margin: 0;
+}
+main{
+    width: 100%;
+    height: 100vh;
+    background-color: #FFF2D8;
+    display: flex;
+    justify-content: center;
+    padding: 3rem;
+}
+main div.left-side{
+    width: 450px;
+    height: 450px;
+    background: linear-gradient(45deg,#EBB2CB,#A880B4);
+    padding:2rem;
+}
+main div.right-side{
+    width: 300px;
+    height: 450px;
+    background: linear-gradient(135deg,#C9B2D0,#9B74A9);
+    padding:2rem;
+}
+main div.left-side div.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0;
+}
+main div.left-side div.header{
+    margin-top: -10px;
+}
+main div.left-side div.header img{
+    width: 100px;
+    height: auto;
+    padding: 0;
+    margin-bottom: -35px;
+}
+main div.left-side div.header p{
+    display: inline-block;
+    background-color: #BB97C2;
+    border-radius: 50px;
+    height: 20px;
+}
+main div.left-side div.header p span{
+    padding:0.5rem;
+}
+main div.left-side div.header p span:first-child{
+    display: inline-block;
+    background-color: #C7A9CC;
+    padding: 0;
+    width: 30px;
+    height: auto;
+    border-radius: 15px;
+    text-align: center;
+}
+main div.left-side div.date-degree{
+    margin-top: 0;
+    padding:0 ;
+}
+main div.left-side div.date-degree h1{
+    font-weight: 100;
+    font-size: 6rem;
+    margin: 0;
+    margin-top: 1.7rem;
+}
+main div.left-side div.date-degree sup{
+    font-size: 2rem;   
+}
+main div.left-side div.date-degree h2{
+    font-weight: 200;
+    margin: 0.3rem;
+}
+main div.left-side div.date-degree p{
+    font-weight: 100;
+    margin: 0;
+}
+main div.left-side div.conditions{
+    display: flex;
+    font-size: 0.8rem;
+    margin-top: 1.5rem;
+}
+main div.left-side div.conditions div.start{
+    margin-right: 1.5rem;
+}
+main div.left-side div.conditions div.pipe{
+    margin-right: 1.5rem;
+}
+main div.left-side div.conditions div img{
+    width: 16px;
+    height: auto;
+    margin-right: 15px;
+    margin-bottom: -2px;
+}
+main div.left-side div.next-days{
+    display: flex;
+    /* justify-content: space-between; */
+    align-items: center;
+    gap: 2.3rem;
+}
+main div.left-side div.next-days div.daily{
+    height: 110px;
+    width: 70px;
+    background-color:#E6BAD3;
+    margin-top: 2rem;
+    border-radius: 10px;
+    text-align: center;
+    padding-top: 20px;
+}
+main div.left-side div.next-days div.daily img{
+    width: 100%;
+    height: auto;
+}
+main div.left-side div.next-days div.arrow img{
+    width: 12px;
+    margin-top: 3rem;
+}
+main div.right-side div.location{
+    display: flex;
+    justify-content: space-between;
+    font-size: 1.2rem;
+    font-weight: 200;
+}
+main div.right-side div.location img:first-child{
+width: 20px;
+margin-right: 1rem;
+margin-bottom: -3px;
+}
+main div.right-side div.location img:last-child{
+    width: 15px;
+    margin-right: 0;
+}
+main div.right-side div.location div:last-child{
+    background-color: #C0AECE;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    width: 30px;
+    height: 30px;
+}
+main div.right-side div.hours{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 5rem;
+    margin-bottom: 2rem;
+}
+main div.right-side div.hours div div{
+    width: 60px;
+    height: 120px;
+    background-color:#CBB3D3 ;
+    border-radius: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+main div.right-side div.hours div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+main div.right-side div.hours div h5{
+    margin-bottom: 1rem;
+    font-size: 1.1rem;
+    font-weight: 300;
+}
+main div.right-side div.hours div div img{
+    width: 65%;
+    height: auto;
+    margin-bottom: 1rem;
+}
+main div.right-side div.hours div div h4{
+    font-weight: 300;
+}
+main div.right-side div.hours div div p{
+    margin: 0.5rem;
+    margin-bottom: 0.5rem;
+    font-size: 0.8rem;
+    color: #f3ebee;
+    font-weight: 200;
+}
+main div.right-side div.hours div.higher{
+    margin-top: -2.2rem;
+}
+main div.right-side div.hours div.higher div{
+    width: 75px;
+    height: 140px;
+}
+main div.right-side div.hours div.higher div span{
+    font-size: 0.7rem;
+}
+main div.right-side div.seperator{
+    display: flex;
+    justify-content: space-between;
+}
+main div.right-side div.seperator div:first-child{
+    width: 250px;
+    border-bottom: 1px solid #CBB3D3 ;
+}
+main div.right-side div.seperator div:last-child{
+   margin-bottom: -8px;
+   margin-right: 8px;
+   width: 20px;
+   height: 20px;
+   background-color: #CBB3D3;
+   text-align: center;
+   border-radius: 10px;
+   -webkit-border-radius: 10px;
+   -moz-border-radius: 10px;
+   -ms-border-radius: 10px;
+   -o-border-radius: 10px;
+}
+main div.right-side div.progress{
+   display: flex;
+    justify-content: space-between;
+}
+main div.right-side div.progress div{
+    margin-top: 2rem;
+    font-size: 0.8rem;
+    color:#F3F3F3;
+    width: 125px;
+    text-align: center;
+}
+main div.right-side div.progress div h5{
+    font-size: 1.1rem;
+}
+main div.right-side div.progress div:first-child{
+    margin-left: 1rem;
+}
+main div.right-side div.progress div:last-child{
+    margin-right: 1rem;
+}
+main div.right-side div.progress div div{
+    border-top: 3px solid #E6BAD3 ;
+    width: 125px;
+    height: 50px;
+    border-top-right-radius: 125px;
+    border-top-left-radius: 125px;
+}
+main div.right-side div.progress div div p{
+    margin-top: 1rem;
+    font-size: 0.8rem;
+    font-weight: 100;
+}
